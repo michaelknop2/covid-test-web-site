@@ -34,7 +34,7 @@ Bitte geben Sie den Code auf Ihrem Proben-Röhrchen an:
 
 Code auf dem Röhrchen: _______  [Next to this field, an image of a test tube with an arrow or a box highlighting the code]
 
-Falls Sie kein Röhrchen mit Code erhalten haben, klicken Sie bitte [hier] (Link to *No tube Page*).
+Falls Sie kein Röhrchen mit Code erhalten haben, klicken Sie bitte [hier].
 
 
 
@@ -55,6 +55,7 @@ Passwort: ________________      dasselbe Passwort nochmal: _________________
 
 
 [ Daten abschicken ]
+[ Könnte man hier ein Feedback einbauen - der Proband kreigt eine Email oder SMS mit seinem Code, seinem Passwort und einem Bestätgingscode den er hier wieder eingeben muss, damit wir wissen, dass er erreichbar ist?]
 
 This button checks that the code is valid (for now: precisely 6 letters, nothing else), and that the two passwords agree, and then sends the data as HTTP form data to the server. The server stores the data in a CSV file, after encryting the password, together with a time stamp. Then, the *Instructions page* is shown
 
@@ -98,7 +99,7 @@ Negative results page
 In Ihrer Probe konnte das Coronavirus SARS-CoV-2 **nicht** nachgewiesen werden. Vermutlich sind Sie also nicht mit Covid-19 infiziert.
 
 **Bedenken Sie aber:**
-- Unser Test ist nicht perfekt und nicht so genau wie der "offizielle" PCR-Test. Daher kommt es vor, dass der Test Infektionen übersieht.
+- Unser Test ist nicht perfekt und nicht so genau wie der "offizielle" PCR-Test. Daher kommt es gans selten vor, dass der Test Infektionen übersieht.
 - Selbst, wenn Ihre Probe wirklich keinen Virus enthielt: Vielleicht war das Virus nicht in Ihrem Speichel, aber anderswo im Körper. Oder Sie haben sich in den letzten Tagen angesteckt, erst nachdem Sie die Probe abgegeben haben. Oder Sie treffen morgen jemanden, der Sie ansteckt.
 
 **Daher:** Seien Sie weiterhin vorsichtig. Halten Sie Abstand zu anderen, tragen Sie in der Öffentlichkeit eine Maske, und beachten Sie weiterhin alle Regelungen zur vermeidung von Ansteckungen.
